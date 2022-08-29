@@ -2,7 +2,6 @@
 <html>
 <body>
 
-Allow: GET, POST, PUT
 
 <!-- <body style="background-color:powderblue;"> <!-- muda cor do fundo -->
 <style>
@@ -23,24 +22,20 @@ body {
 
 <button>Desistir do curso</button>
 
-  <form action="/get">
-    escrita: <input type="text" name="escrita">
-    <input type="submit" value="enviar">
-  </form>
-  
-  
-  
-  
-  <head>
-  <title>ESP Input Form</title>
-  <meta name="viewport" content="width=device-width, initial-scale=2">
-  
-  </head><body>
-  <form action="/get">
-    input3: <input type="text" name="input3">
-    <input type="submit" value="Submit">
-  </form>
-</body>
+
+
+<h1>The input element</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
   
   
 
